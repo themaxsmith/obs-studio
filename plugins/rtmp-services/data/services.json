@@ -773,7 +773,10 @@
         },
         {
             "name": "AfreecaTV",
-            "alt_names": ["아프리카TV", "Afreeca.TV"],
+            "alt_names": [
+                "아프리카TV",
+                "Afreeca.TV"
+            ],
             "servers": [
                 {
                     "name": "Asia : Korea",
@@ -1049,7 +1052,9 @@
         },
         {
             "name": "Switchboard Live",
-            "alt_names": ["Switchboard Live (Joicaster)"],
+            "alt_names": [
+                "Switchboard Live (Joicaster)"
+            ],
             "servers": [
                 {
                     "name": "Global Zone (geo based)",
@@ -1181,7 +1186,9 @@
         },
         {
             "name": "Trovo",
-            "alt_names": ["Madcat"],
+            "alt_names": [
+                "Madcat"
+            ],
             "servers": [
                 {
                     "name": "Default",
@@ -1289,7 +1296,7 @@
             "recommended": {
                 "keyint": 4,
                 "max video bitrate": 2500,
-                "max audio bitrate": 256,    
+                "max audio bitrate": 256,
                 "x264opts": "tune=zerolatency"
             }
         },
@@ -1929,6 +1936,32 @@
                 "max video bitrate": 6000,
                 "bframes": 0,
                 "x264opts": "scenecut=0"
+            }
+        },
+        {
+            "name": "SeasonCast Live Sports Platform",
+            "servers": [
+                {
+                    "name": "US East: Atlanta, GA",
+                    "url": "rtmp://atl-1.ingest.seasoncast.com/ingest"
+                },
+                {
+                    "name": "US East: New York City, NY",
+                    "url": "rtmp://ny-2.ingest.seasoncast.com/ingest"
+                },
+                {
+                    "name": "US Central: Des Moines, IA",
+                    "url": "rtmp://dsm-1.ingest.seasoncast.com/ingest"
+                },
+                {
+                    "name": "US West: San Francisco, CA",
+                    "url": "rtmp://sf-1.ingest.seasoncast.com/ingest"
+                }
+            ],
+            "recommended": {
+                "keyint": 2,
+                "max video bitrate": 6000,
+                "max audio bitrate": 160
             }
         }
     ]
